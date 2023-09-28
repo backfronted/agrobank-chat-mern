@@ -1,0 +1,10 @@
+.input-send {
+  width: 100%;
+}
+.input-send input {
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  height: 100%;
+}

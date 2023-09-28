@@ -1,0 +1,182 @@
+body,
+html {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: red; */
+}
+.wrapper .header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.wrapper .header .header-content {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .header .header-content .first-content {
+  width: max-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrapper .header .header-content .first-content h1 {
+  color: #011d32;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+  margin-left: 20px;
+}
+.wrapper .header .header-content .second-content {
+  width: max-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrapper .header .header-content .second-content img {
+  margin-left: 36px;
+}
+.wrapper .login-modal-container {
+  width: 100%;
+  height: 90.5%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .login-modal-container .login-modal {
+  width: 815px;
+  height: 588px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.wrapper .login-modal-container .login-modal .img-container {
+  width: 350px;
+  height: 100%;
+}
+.wrapper .login-modal-container .login-modal .img-container img {
+  width: 350px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 0 0 20px;
+}
+.wrapper .login-modal-container .login-container {
+  width: 465px;
+  height: 100%;
+  border-radius: 0px 20px 20px 0px;
+}
+.wrapper .login-modal-container .login-container h2 {
+  color: #011d32;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 24px */
+  margin-top: 56;
+  margin-left: 89px;
+}
+.wrapper .login-modal-container .login-container .form-container {
+  width: 70%;
+  height: 452px;
+  margin-left: 89px;
+  margin-top: 28px;
+}
+.wrapper .login-modal-container .login-container .form-container h3 {
+  color: #011d32;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+.wrapper .login-modal-container .login-container .form-container .welcome-text {
+  color: gray;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  margin-top: 16px;
+}
+.wrapper .login-modal-container .login-container .form-container form {
+  width: 100%;
+  height: max-content;
+  margin-top: 60px;
+}
+.wrapper
+  .login-modal-container
+  .login-container
+  .form-container
+  form
+  .login-option {
+  width: 100%;
+  height: 40px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+.wrapper
+  .login-modal-container
+  .login-container
+  .form-container
+  form
+  .login-option
+  .remember {
+  color: #011d32;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  margin-left: 13px;
+}
+.wrapper
+  .login-modal-container
+  .login-container
+  .form-container
+  form
+  .login-option
+  .forgot {
+  color: #0672c2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  margin-left: 77px;
+}
+.wrapper
+  .login-modal-container
+  .login-container
+  .form-container
+  .register-container {
+  width: 100%;
+  height: max-content;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper
+  .login-modal-container
+  .login-container
+  .form-container
+  .register-container
+  span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  margin-left: 77px;
+  color: #0672c2;
+  text-decoration: underline;
+  cursor: pointer;
+}

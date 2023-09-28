@@ -1,0 +1,231 @@
+body,
+html {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper .dashboard-content {
+  width: 100%;
+  height: 90.5%;
+  display: flex;
+}
+.wrapper .dashboard-content .personality-option {
+  width: 232px;
+  height: 100%;
+}
+.wrapper .dashboard-content .personality-option .p-con {
+  width: 100%;
+  height: max-content;
+}
+.wrapper .dashboard-content .personality-option .p-con .p-img {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .dashboard-content .personality-option .p-con .p-name {
+  width: 100%;
+  height: max-content;
+  color: rgba(1, 29, 50, 0.5);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+}
+.wrapper .dashboard-content .personality-option .p-option {
+  width: 100%;
+  height: max-content;
+  margin-top: 30px;
+}
+.wrapper .dashboard-content .personality-option .p-option .option-1 {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.wrapper
+  .dashboard-content
+  .personality-option
+  .p-option
+  .option-1
+  .option-text {
+  margin-left: 20px;
+  color: #011d32;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+.wrapper .dashboard-content .users-con {
+  width: 390px;
+  height: 100%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.wrapper .dashboard-content .users-con .users-cards {
+  width: 100%;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.wrapper .dashboard-content .users-con .user {
+  width: 90%;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #f8f8f8;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.wrapper .dashboard-content .users-con .user .u-img {
+  width: max-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .dashboard-content .users-con .user .u-info {
+  margin-left: 12px;
+  width: 100%;
+  height: max-content;
+}
+.wrapper .dashboard-content .users-con .user .u-info .u-name {
+  color: #011d32;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+
+.wrapper .dashboard-content .users-con .user .u-info .u-email {
+  color: rgba(1, 29, 50, 0.5);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  margin-top: -15px;
+}
+
+.wrapper .dashboard-content .chat-box {
+  width: 80%;
+  height: 100%;
+  margin-left: 9px;
+}
+.wrapper .dashboard-content .chat-box .c-header {
+  width: 100%;
+  height: 60px;
+  background: #f8f8f8;
+}
+.wrapper .dashboard-content .chat-box .c-header .c-header_info {
+  width: max-content;
+  height: 100%;
+
+  margin-left: 10px;
+}
+.wrapper .dashboard-content .chat-box .c-header .c-header_info h1 {
+  color: #011d32;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+  margin: 0;
+}
+.wrapper .dashboard-content .chat-box .c-header .c-header_info .time-active {
+  color: rgba(1, 29, 50, 0.5);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  margin: 10;
+}
+.wrapper .dashboard-content .chat-box .chat-box_messages {
+  width: 100%;
+  height: 75%;
+  border-right-color: rgb(22, 16, 16);
+  overflow-y: auto;
+}
+
+.wrapper .dashboard-content .chat-box .chat-box_messages .p .message_user {
+  background: #e6faf0;
+  border-radius: 16px; /* Закругление верхнего левого угла */
+  margin-left: auto; /* Автоматический внешний отступ слева */
+  margin-top: 20px;
+  padding: 14px;
+  width: 40%;
+  color: #011d32;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+.wrapper .dashboard-content .chat-box .chat-box_messages .p .message_receiver {
+  background: #f8f8f8; /* Серый цвет фона */
+  border-radius: 16px; /* Закругление верхнего левого угла */
+  color: #011d32;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+  width: 40%;
+  padding: 14px;
+  margin-top: 20px;
+}
+.wrapper .dashboard-content .chat-box .chat-box_messages .p .no_message {
+  text-align: center;
+  font-size: 1.125rem; /* Это примерное соответствие "большому" размеру */
+  font-weight: 600; /* Это примерное значение для полужирного шрифта */
+  margin-top: 6rem; /* Верхний внешний отступ в 24 пикселя */
+}
+.wrapper .dashboard-content .other-users {
+  width: 20%;
+  height: 100%;
+  overflow-y: auto;
+  margin-left: 20px;
+}
+.wrapper .dashboard-content .other-users .about-con {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  /* position: fixed; */
+  margin-top: 20px;
+}
+.wrapper .dashboard-content .other-users .user-2 {
+  width: 80%;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #f8f8f8;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.wrapper .dashboard-content .other-users .user-2 .u-name-2 {
+  color: #011d32;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+.wrapper .dashboard-content .other-users .user-2 .u-email-2 {
+  color: rgba(1, 29, 50, 0.5);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  margin-top: 15px;
+}

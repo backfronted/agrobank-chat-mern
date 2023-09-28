@@ -1,0 +1,22 @@
+.into-btn {
+  display: flex;
+  width: 328px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+  background: #00cd69;
+  border: none;
+  margin-top: 40px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.into-btn:hover {
+  background: #01b75f;
+  color: #fff;
+}
